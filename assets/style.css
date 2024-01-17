@@ -1,0 +1,356 @@
+/* Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700 */
+
+:root {
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-Red: hsl(0, 100%, 63%);
+  --very-dark-cyan: hsl(192, 100%, 9%);
+  --very-pale-blue: hsl(207, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.5rem;
+}
+
+nav img{
+  width: 100px;
+  height: auto;
+}
+
+nav button{
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0.3rem 1.2rem;
+  color: var(--light-pink);
+  border: 0.1rem solid var(--light-pink);
+  border-radius: 2rem;
+}
+
+nav button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.build-community{
+  margin-top: 2.6rem;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+.build-community h1{
+  font-size: 2.2em;
+  line-height: 3rem;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.build-community p{
+  margin-top: 1.5rem;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.get-started{
+  padding: 0.7rem 2rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  background-color: var(--pink);
+  color: white;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.build-community button:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.achievements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.achievements .mockups{
+  padding: 2rem;
+  width: 100%;
+  height: auto;
+}
+
+.status{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  gap: 2rem;
+}
+
+.status p{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 0.5rem;
+}
+
+.status p img{
+  width: 30px;
+}
+
+.status p {
+  font-size: 3em;
+  font-weight: 700;
+
+}
+
+.text{
+  text-transform: capitalize;
+  font-weight: 200;
+  font-size: 0.3em;
+  color: var(--very-dark-cyan);
+}
+
+
+.main-section{
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+
+.pros{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.pros h3{
+  font-weight: 700;
+  margin-bottom: -1rem;
+  font-size: 1.9em;
+  padding:  1rem 2rem;
+}
+
+.pros p{
+  line-height: 1.6rem;
+  font-size: 1em;
+  padding:  1rem 2rem;
+}
+
+.pros img{
+  width: 100%;
+  padding: 3rem;
+}
+
+
+.ready{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+  margin-top: 10rem;
+}
+
+.ready h2{
+  text-transform: capitalize;
+  line-height: 2.5rem;
+}
+
+img {
+  height: auto;
+  width: 200px;
+}
+
+footer {
+  padding: 2rem;
+  margin-top: 10rem;
+  background-color: var(--very-dark-cyan);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.svg-mobile{
+  width: 100%;
+  margin-bottom: -169px;
+}
+
+.svg-desktop{
+  display: none;
+}
+
+footer .newsletter p{
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.email-input{
+  width: 100%;
+}
+
+.email-input input{
+  padding: 1rem 2rem;
+  border-radius: 0.2rem;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+.sub{
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  margin-top: 0.7rem;
+}
+
+.sub button{
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  appearance: none;
+  background-color: var(--pink);
+  border-radius: 0.3rem;
+  color: #fff;
+  font-weight: 700;
+}
+
+.sub button:hover{
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.contact img{
+  width: 17px;
+  margin-right: 1.5rem;
+}
+
+.lorem{
+  margin: 4rem 0;
+}
+
+.logo{
+  background: white;
+  color: #fff;
+  width: 9rem;
+}
+
+.lorem p{
+  line-height: 1.7rem;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 1.55rem;
+}
+
+@media screen and (min-width: 760px) {
+  .build-community p{
+    padding: 0 8.2rem;
+  }
+  .status{
+    display: flex;
+    flex-direction: row;
+    gap: 12rem;
+  }
+
+  .pros img{
+    width: 20rem;
+  }
+
+  .pros{
+    display: flex;
+    flex-direction: row;
+  }
+
+  footer{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    padding: 5rem;
+  }
+
+  .reverse{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .desktop-lorem{
+    margin-top: -4.3rem;
+  }
+
+  .email-input{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+  }
+
+  .email-input input{
+    width: 15rem;
+  }
+
+  .desktop-news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .achievements .mockups{
+    padding: 0 5rem;
+  }
+
+  .svg-mobile{
+    display: none;
+  }
+
+  .svg-desktop{
+    display: inline;
+    width: 100%;
+    margin-bottom: -166px;
+  }
+
+  
+}
